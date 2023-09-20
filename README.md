@@ -1,7 +1,10 @@
 # 04 Data Visualization
 Welcome to my Data Science journey repository! Here's an overview of the content:
 
-- [01 HTML & CSS](https://github.com/lokmanTech/04_Data_Visualization/blob/main/HTML%20%26%20CSS.ipynb)
+- [01 Fundamental of Data Visualization](https://github.com/lokmanTech/04_Data_Visualization/blob/main/01%20Fundamental%20of%20Data%20Visualization.ipynb)
+- [02 Introduction to HTML](https://github.com/lokmanTech/04_Data_Visualization/blob/main/02%20Introduction%20to%20HTML.ipynb)
+- [03 Introduction to CSS](https://github.com/lokmanTech/04_Data_Visualization/blob/main/03%20Introduction%20to%20CSS.ipynb)
+- [04 HTML Forms](https://github.com/lokmanTech/04_Data_Visualization/blob/main/04%20HTML%20Forms.ipynb)
   
 
 
