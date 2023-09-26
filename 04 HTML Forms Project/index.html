@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-invitation card</title>
+    <title>e-Invitation Lokman's Dinner</title>
     <link href="css/forms.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
 </head>
-<body>
+<body>    
     <div class="wrapper">
     <section> <!-- this will help differentiate the mark up that happen in HTML -->
+    <h1>e-Invitation Lokman's Dinner</h1>
+    <p class="h1">Fill out the form below for RSVP.</p>
     <fieldset> <!-- function of the fieldset is to manage certain in order -->
         <legend> Your contact information </legend> <!-- the legend will provide info of your forms under fieldset for container-->
             <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="post"> <!-- for more basic info about form, we can go to www.frontendmaster.github.io/bootcamp/forms, for action part, is where the information been transmitted, it is part of backend programming-->
@@ -57,9 +62,13 @@
     </fieldset>
     <button type="submit">Submit</button>
     </form>
+    <h3>The Dining Location</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2816.944851081669!2d101.70920181630082!3d3.157434317854394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc370355a62143%3A0x84551331d40222cc!2sSky%20Suites%20KLCC%20by%20Arman!5e0!3m2!1sen!2smy!4v1695735846583!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p><b>Sky Suites KLCC by Arman</b></p>
+    <p>18, Jalan P. Ramlee, 50250, Wilayah Persekutuan Kuala Lumpur.</p>
+    </div>
 </section>
-<footer>
-    <script scr="../js/forms.js"></script>
-</footer>
+
+<script scr="../js/forms.js"></script>
 </body>
 </html>
